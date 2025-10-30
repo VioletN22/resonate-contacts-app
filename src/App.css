@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600&display=swap');
+
+/* global styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.app {
+  font-family: 'Inter', Times, serif, sans-serif;
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  background: radial-gradient(circle at top, #00131a 0%, #000000 80%);
+}
+
+.content {
+  position: relative;
+  z-index: 5;
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #e3f2fd;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+}
+
+
+
