@@ -1,16 +1,37 @@
-# React + Vite
+# Resonate Contacts App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive contacts application built with **React** and **Vite**.
 
-Currently, two official plugins are available:
+The app allows users to browse a list of contacts fetched from the public API at (https://jsonplaceholder.typicode.com/users).
+Each contact displays basic information such as **name** and **city**, and clicking on a contact shows a detailed profile with **email**, **phone**, **company**, **website**, and **address**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo Hosted
+**Deployed on Vercel**
+https://resonate-contacts-app-gules.vercel.app
 
-## React Compiler
+## Tech Stack
+- **React (Vite)**
+- **React Router**
+- **Custom CSS styling**
+- **Light Rays background** effect from [ReactBits](https://reactbits.dev/backgrounds/light-rays)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Running locally
 
-## Expanding the ESLint configuration
+Follow these steps to run the project on your local machine:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone this repository**
+
+git clone https://github.com/VioletN22/resonate-contacts-app.git
+
+2. **Navigate into the project folder** and install dependencies
+
+cd resonate-contacts-app
+
+npm install
+
+3. **Run the app**
+
+npm run dev
+
+4. **Open your browser at:**
+http://localhost:5173/
